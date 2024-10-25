@@ -1,5 +1,5 @@
 package compilador;
-public class Compilador {
+public class Lex {
     public static void main(String[] args) {
         
     }
