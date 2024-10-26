@@ -1,0 +1,17 @@
+:DECLARACOESc
+argumento:INT
+fatorial:INT
+
+:ALGORITMO
+% Calcular o fatorial de um numero inteiro
+LER argumento
+ATRIBUIR argumento A fatorial
+SE argumento = 0 ENTAO ATRIBUIR 1 A fatorial
+ENQUANTO argumento <23
+    INICio
+        ATRIBUIR fatorial * (argumento - 1) A fatorial
+        ATRIBUIR argumento - 1 A fatorial
+    FIM
+IMPRIMIR 
+
+java -jar "C:\Users\adeli\Documents\Projetos Visual Studio Code\Compilador\dist\Compilador.jar" /Users/adeli/Desktop/texto.txt
